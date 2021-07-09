@@ -1,15 +1,15 @@
 const productDataFile = 'https://github.com/neptunelabs/fsi-layers-samples/raw/main/samples/pdp/bread-data.json'
 
 class PDP {
-  // Templates @@ defined in project/env.yml and replaced by grunt
-  static fsiServer = 'https://fsi-site.neptunelabs.com/fsi/server'
-  static srcRoot = 'images/samples/layers/product-detail'
-
-  productData = {}
-  selection = {}
-
   constructor(dataFile) {
     this.dataFile = dataFile
+
+    this.productData = {}
+    this.selection = {}
+
+    // Templates @@ defined in project/env.yml and replaced by grunt
+    this.fsiServer = 'https://fsi-site.neptunelabs.com/fsi/server'
+    this.srcRoot = 'images/samples/layers/product-detail'
   }
 
   /*
@@ -164,7 +164,7 @@ class PDP {
         const layerData = {
           ...groupData[groupKey].layer,
           name: this.getLayerName(groupName, groupKey),
-          src: PDP.srcRoot + '/' + groupData[groupKey].img,
+          src: this.srcRoot + '/' + groupData[groupKey].img,
           hidden: true,
         }
 
@@ -205,7 +205,7 @@ class PDP {
 
         const labelImgEl = document.createElement('img')
         labelImgEl.setAttribute('height', '80')
-        labelImgEl.src = PDP.fsiServer + '?type=image&source=' + PDP.srcRoot + '/' + data.img + '&height=160'
+        labelImgEl.src = this.fsiServer + '?type=image&source=' + this.srcRoot + '/' + data.img + '&height=160'
 
         labelEl.appendChild(labelImgEl)
         selectorEl.appendChild(labelEl)
