@@ -1,0 +1,11 @@
+name: Flowers
+description: Simple HTML based Demo with many layers
+authors:
+  - NeptuneLabs
+resources:
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/layers/js/fsilayers.js
+tags:
+  - FSI
+  - FSI Server
+  - FSI Layers
+  - NeptuneLabs
