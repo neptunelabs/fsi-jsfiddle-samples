@@ -1,12 +1,12 @@
 <div class="container">
   <div class="row bg-white p-4 mt-4">
-    <div class="col-md-6 col-sm-12 col-xs-12 sticky-top" id="fsiLayersContainer" style="height:500px"></div>
+    <div class="col-md-6 col-sm-12 col-xs-12 sticky-top px-0" id="fsiLayersContainer" style="height:500px"></div>
     <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-      <h2 id="productName"></h2>
+      <h1 id="productName" class="display-6"></h1>
       <small>Product by <a href="javascript:void(0);" id="productProducer"></a></small> -
       <small>Sold by <a href="javascript:void(0);" id="productSeller"></a></small>
       <p>
-        <span class="text-secondary" id="productStars"></span>
+        <span class="yellow-txt" id="productStars"></span>
         <small>(<span id="productRatings"></span>) Ratings</small>
       </p>
       <hr/>
@@ -15,8 +15,8 @@
           <h3>$ <span id="priceTotal"></span></h3>
           <small>*includes tax (excl. shipping)</small>
         </div>
-        <div class="col text-center">
-          <button type="button" class="btn btn-lg btn-secondary text-dark" id="cardBtn">
+        <div class="col text-end">
+          <button type="button" class="btn btn-lg text-dark yellow-bg" id="cardBtn">
             Add to Cart
           </button>
           <br/>
@@ -49,7 +49,7 @@
       </div>
       <hr/>
       <div>
-        <h5>Product Description</h5>
+        <p class="lead">Product Description</p>
         <p id="productDescHead"></p>
         <p id="productDescHTML"></p>
       </div>

@@ -1,4 +1,4 @@
-const productDataFile = 'https://github.com/neptunelabs/fsi-layers-samples/raw/main/samples/pdp/bread-data.json'
+const productDataFile = 'bread-data.json'
 
 class PDP {
   constructor(dataFile) {
@@ -8,8 +8,11 @@ class PDP {
     this.selection = {}
 
     // Templates @@ defined in project/env.yml and replaced by grunt
-    this.fsiServer = 'https://fsi-site.neptunelabs.com/fsi/server'
+    this.fsiServer = 'https://fsi-site.neptunelabs.com/fsi'
     this.srcRoot = 'images/samples/layers/product-detail'
+    this.assetRoot = 'assets/samples/layers/product-detail'
+
+    this.dataFile = this.fsiServer + '/static/' + this.assetRoot + '/' + dataFile
   }
 
   /*
@@ -20,7 +23,6 @@ class PDP {
     reqHeader.append('Content-Type', 'text/json')
     let initObject = {
       method: 'GET',
-      mode: 'no-cors',
       headers: reqHeader,
     }
 
@@ -98,7 +100,7 @@ class PDP {
       selAccordionHeaderEl.classList.add('accordion-header')
       selAccordionHeaderEl.id = 'heading_' + groupName
       const selAccordionButtonEl = document.createElement('button')
-      selAccordionButtonEl.classList.add('accordion-button')
+      selAccordionButtonEl.classList.add('accordion-button', 'h5', 'py-2')
       if (!isFirstElement) {
         selAccordionButtonEl.classList.add('collapsed')
       } else {
@@ -197,7 +199,7 @@ class PDP {
         selectorEl.appendChild(inputEl)
 
         const labelEl = document.createElement('label')
-        labelEl.classList.add('btn', 'btn-outline-warning', 'm-1')
+        labelEl.classList.add('btn', 'btn-pdp-layer', 'm-1')
         labelEl.setAttribute('for', inputEl.id)
 
         const tooltip = new bootstrap.Tooltip(labelEl, {
@@ -206,7 +208,7 @@ class PDP {
 
         const labelImgEl = document.createElement('img')
         labelImgEl.setAttribute('height', '80')
-        labelImgEl.src = this.fsiServer + '?type=image&source=' + this.srcRoot + '/' + data.img + '&height=160'
+        labelImgEl.src = this.fsiServer + '/server?type=image&source=' + this.srcRoot + '/' + data.img + '&height=160'
 
         labelEl.appendChild(labelImgEl)
         selectorEl.appendChild(labelEl)
@@ -285,7 +287,6 @@ class PDP {
     // hide Layer-Selector
     else {
       this.setSelection(id, null, false)
-      this.fill(this.getCheckName(id), '')
     }
 
     // hide/show fsi-layer group
