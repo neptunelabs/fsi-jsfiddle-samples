@@ -1,4 +1,4 @@
-## JSFiddle Demo
+## JSFiddle Trains Demo
 
 [JSFiddle][Link]
 

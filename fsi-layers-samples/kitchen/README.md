@@ -1,4 +1,4 @@
-## JSFiddle Demo
+## JSFiddle Kitchen Configurator Demo
 
 [JSFiddle][Link]
 

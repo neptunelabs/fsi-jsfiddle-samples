@@ -1,4 +1,4 @@
-## JSFiddle Demo
+## JSFiddle Flowers Demo
 
 [JSFiddle][Link]
 
