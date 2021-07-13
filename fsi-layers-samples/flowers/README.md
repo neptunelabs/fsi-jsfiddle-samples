@@ -1,5 +1,5 @@
 ## JSFiddle Demo
 
-[Flowers on JSFiddle][Link]
+[JSFiddle][Link]
 
-[Link]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-jsfiddle-samples/tree/master/fsi-layers-samples/flowers
+[Link]: https://jsfiddle.net/gh/get/library/pure/neptunelabs/fsi-layers-samples/tree/master/flowers

@@ -18,6 +18,11 @@ html, body {
   background-color: #f0f0f8;
 }
 
+.cfg-spinner {
+  width: 5rem;
+  height: 5rem;
+}
+
 .custom-radios div {
   display: inline-block;
 }
