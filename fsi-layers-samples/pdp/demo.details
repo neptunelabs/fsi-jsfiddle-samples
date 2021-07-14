@@ -7,8 +7,8 @@ resources:
   - https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js
   - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css
   - https://fsi-site.neptunelabs.com/fsi/viewer/applications/layers/js/fsilayers.js
-tags:
-  - FSI
-  - FSI Server
-  - FSI Layers
-  - NeptuneLabs
+normalize_css: 'no'
+wrap: d
+panel_html: 0
+panel_jsl: 0
+panel_css: 0

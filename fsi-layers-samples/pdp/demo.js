@@ -7,7 +7,7 @@ class PDP {
     this.productData = {}
     this.selection = {}
 
-    // Templates @@ defined in project/env.yml and replaced by grunt
+    // Templates defined in project/env.yml and replaced by grunt
     this.fsiServer = 'https://fsi-site.neptunelabs.com/fsi'
     this.srcRoot = 'images/samples/layers/product-detail'
     this.assetRoot = 'assets/samples/layers/product-detail'
