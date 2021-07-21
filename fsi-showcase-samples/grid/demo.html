@@ -1,0 +1,34 @@
+<div class="container"
+     id="fsi-showcase-1625575226801-6828495">
+  <fsi-viewer id="fsi-viewer-1625575226801-200015"
+              class="viewer"
+              width="100%"
+              height="100%"
+              plugins="resize,fullScreen"
+              fullScreenElement="fsi-showcase-1625575226801-6828495"
+              debug="true"
+  >
+  </fsi-viewer>
+  <fsi-imagegrid
+    class="grid"
+    width="100%"
+    height="100%"
+    debug="true"
+    dir="images/samples/showcase/handbags"
+    cellWidth="120"
+    cellHeight="101"
+    viewerSelector="#fsi-viewer-1625575226801-200015"
+  >
+
+    <fsi-imagegrid-template style="display:none;">
+      <div class="myImageGridImage" >
+        <img class="fsi-image-grid-image"/>
+      </div>
+      <div class="myImageGridTitle">
+        ###image.filename###
+      </div>
+    </fsi-imagegrid-template>
+
+  </fsi-imagegrid>
+
+</div>
