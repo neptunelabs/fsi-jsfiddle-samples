@@ -5,7 +5,7 @@ authors:
 resources:
   - https://fsi-site.neptunelabs.com/fsi/viewer/applications/viewer/js/fsiviewer.js
   - https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js
-  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/imagegrid/js/fsiimagegrid.js
 normalize_css: 'no'
 wrap: d
 panel_html: 0
