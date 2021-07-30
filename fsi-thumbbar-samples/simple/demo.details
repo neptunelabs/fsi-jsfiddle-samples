@@ -1,0 +1,12 @@
+name: Simple ThumbBar
+description: This simple demo shows a normal thumb bar with zoom function.
+authors:
+  - NeptuneLabs
+resources:
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js
+normalize_css: 'no'
+wrap: d
+panel_html: 0
+panel_jsl: 0
+panel_css: 0
