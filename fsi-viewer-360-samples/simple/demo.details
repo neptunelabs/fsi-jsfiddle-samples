@@ -1,0 +1,11 @@
+name: Simple Spin
+description: Simple Spin Demo
+authors:
+  - NeptuneLabs
+resources:
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/viewer/js/fsiviewer.js
+normalize_css: 'no'
+wrap: d
+panel_html: 0
+panel_jsl: 0
+panel_css: 0
