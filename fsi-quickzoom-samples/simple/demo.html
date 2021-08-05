@@ -3,24 +3,10 @@
     <h1 class="text">NeptuneLabs QuickZoom</h1>
     <p class="text">Hover over the images to see QuickZoom in action!</p>
     <div class="image-container" align="center">
-      <div class="image">
-        <fsi-quickzoom style="display:none"
-                       inPlaceZoom="true"
-                       magnification="2.5"
-                       enableByCSSClass="inplace"
-                       disableByCSSClass="fly"
-        ></fsi-quickzoom>
-        <img class="inplace" src="//fsi-site-origin.neptunelabs.com/fsi/server?type=image&source=images/samples/showcase/handbags/WH-88001.tif&width=480" width="480" alt=""><br />
+      <div class="image" id="qzcontainer2">
         In Place Zoom
       </div>
-      <div class="image">
-        <fsi-quickzoom style="display:none"
-                       inPlaceZoom="false"
-                       magnification="2.5"
-                       enableByCSSClass="fly"
-                       disableByCSSClass="inplace"
-        ></fsi-quickzoom>
-        <img class="fly" src="//fsi-site-origin.neptunelabs.com/fsi/server?type=image&source=images/samples/showcase/handbags/WH-88001.tif&width=480" width="480" alt=""><br />
+      <div class="image" id="qzcontainer1">
         Fly-Out Zoom
       </div>
     </div>
