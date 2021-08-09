@@ -1,0 +1,11 @@
+name: Product Detail Page
+description: Shows how a product detail page could look with dynamic imaging used.
+authors:
+  - NeptuneLabs
+resources:
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js
+normalize_css: 'no'
+wrap: d
+panel_html: 0
+panel_jsl: 0
+panel_css: 0

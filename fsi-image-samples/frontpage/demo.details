@@ -1,0 +1,11 @@
+name: Website Frontpage
+description: Shows how a frontpage could look with dynamic imaging and static assets from FSI Server.
+authors:
+  - NeptuneLabs
+resources:
+  - https://fsi-site.neptunelabs.com/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js
+normalize_css: 'no'
+wrap: d
+panel_html: 0
+panel_jsl: 0
+panel_css: 0
