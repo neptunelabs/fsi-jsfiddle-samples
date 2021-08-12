@@ -51,7 +51,7 @@ class PDP {
     this.fsiViewerEl.init(containerEl, {
       debug: true,
       skin: 'white',
-      src: 'images/samples/viewer/shoes/blue.jpg',
+      imagesrc: 'images/samples/viewer/shoes/blue.jpg',
       useDevicePixelRatio: true,
     })
     console.log('viewer init!')
