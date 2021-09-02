@@ -1,4 +1,4 @@
-## JSFiddle Product Detail Page (Simple) Demo
+## JSFiddle Product Detail Page Demo
 
 [JSFiddle][Link]
 
