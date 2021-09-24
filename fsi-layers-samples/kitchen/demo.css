@@ -23,6 +23,10 @@ html, body {
   height: 5rem;
 }
 
+.container-max-server {
+  max-width: 3840px;
+}
+
 .custom-radios div {
   display: inline-block;
 }
