@@ -1,7 +1,7 @@
 name: Photographer Portfolio
 description: >-
   Shows how a portfolio could be displayed with ImageGrid and Metadata used. On click a zoom viewer with the image is
-  opened
+  opened via modal.
 authors:
   - NeptuneLabs
 resources:
