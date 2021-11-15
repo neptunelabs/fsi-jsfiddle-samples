@@ -1,4 +1,4 @@
-## JSFiddle Product Detail Page Demo
+## JSFiddle In Place Zoom Demo
 
 [JSFiddle][Link]
 

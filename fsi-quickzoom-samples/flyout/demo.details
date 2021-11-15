@@ -1,5 +1,5 @@
-name: In Place Zoom
-description: Shows how a product detail page could look with in place zoom used.
+name: Fly Out Zoom
+description: Shows how a product detail page could look with hover zoom used.
 authors:
   - NeptuneLabs
 resources:
