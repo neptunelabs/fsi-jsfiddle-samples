@@ -1,5 +1,5 @@
-name: Product Detail Page (Custom)
-description: Shows how another product detail page could look with FSI Viewer embedded.
+name: Custom Product Detail Page
+description: Shows how another product detail page could look with FSI Viewer and a custom skin embedded.
 authors:
   - NeptuneLabs
 resources:

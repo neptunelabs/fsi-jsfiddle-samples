@@ -1,4 +1,4 @@
-## JSFiddle Product Detail Page (Simple) Demo
+## JSFiddle Simple Product Zoom Demo
 
 [JSFiddle][Link]
 

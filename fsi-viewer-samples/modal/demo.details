@@ -1,5 +1,5 @@
-name: Product Detail Page (Modal)
-description: Shows how a simple product detail page with a modal could look with FSI Viewer used.
+name: Product Zoom (Modal)
+description: Shows how a simple product detail page with an integrated modal could look.
 authors:
   - NeptuneLabs
 resources:
