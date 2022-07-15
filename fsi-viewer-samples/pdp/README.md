@@ -1,4 +1,4 @@
-## JSFiddle Product Detail Page (JSON) Demo
+## JSFiddle Detail Page (JSON) TBD Demo
 
 [JSFiddle][Link]
 
